@@ -1,0 +1,92 @@
+.bg-container {
+    border-color: #0967d219;
+    border-width: 15px;
+    border-style: solid;
+}
+.body {
+    font-family: Arial, sans-serif;
+    margin: 15px;
+    padding: 15px;
+    background-color:#1fdec519;
+}
+.heading{
+    color:rgb(227, 82, 60);
+}
+
+.background-image{
+    height: 150px;
+    width: 150px;
+    text-align:end;
+}
+.pricing-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.pricing-option {
+    background-color: rgb(238, 190, 218);
+    text-align: center;
+    padding: 20px;
+    border: 1px;
+    border-radius: 8px;
+}
+
+.price {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    display: none;
+}
+
+.features li {
+    margin: 5px 0;
+}
+
+.button {
+    margin-top: 10px;
+}
+.types{
+    background-color:#df6cb9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer{
+    background-color:rgb(241, 249, 130);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:15px;
+    margin:15px;
+    width:450px;
+}
+.contact{
+    text-decoration-line: underline;
+}
+.basic{
+    margin:10px;
+    padding:10px;
+}
+.monthly{
+    background-color: #3ebd93;
+    font-family:"Roboto";
+    padding:10px;
+    margin:5px;
+    width:400px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.sixmonths{
+    background-color: #a475ec;
+    font-family:"Roboto";
+    padding:10px;
+    margin:5px;
+    width:400px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

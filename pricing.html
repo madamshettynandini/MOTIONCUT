@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Pricing page</title>
+    <link rel="stylesheet" href="price.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bg-container">
+    <div class="body d-flex flex-row">
+        <div>
+<h1 class="heading">Airtel BroadBand</h1>
+<h3>Welcome to the Airtel services.Below are some plans that may help you.</h3>
+</div>
+<img src="https://tse1.mm.bing.net/th?id=OIP.G_jxNdQl2sRIxc_eopGVYQHaHa&pid=Api&P=0&h=180" class="background-image "/>
+</div>
+<div class="pricing-container">
+    <div class="pricing-option">
+        <h2 >Monthly</h2>
+        <button onclick="toggleFeatures('basic')" class="types">Types</button>
+        <ul id="basic-features" class="features">
+            <li><a href="basic.html">Basic</a></li>
+            <li><a href="premium.html">Premium</a></li>
+            <li><a href="Vip.html">VIP</a></li>
+        </ul>
+        
+    </div>
+
+    <div class="pricing-option">
+        <h2>Six Months</h2>
+        <button onclick="toggleFeatures('premium')" class="types">Types</button>
+        <ul id="premium-features" class="features">
+            <li><a href="basic.html">Basic</a></li>
+            <li><a href="premium.html">Premium</a></li>
+            <li><a href="Vip.html">VIP</a></li>
+        </ul>
+    </div>
+    
+</div>
+<div class="footer d-flex flex-column justify-content-end">
+    <h2 class="contact">Contact us</h2>
+    <h4>Phone No: xxxxxxxxxx</h4>
+    <h4>Gmail us:xxxxxxxxxxx@gmail.com</h4>
+    <h4>Store:Hitech City,Hyderabad</h4>
+    <h4>Website:www.airtel.com</h4>
+</div>
+<script src="script.js"></script>
+</div>
+</body>
+</html>
